@@ -104,9 +104,9 @@ end
       <td><code>production</code></td>
     </tr>
     <tr>
-      <td>bundle_exec</td>
-      <td>Should bundle exec be used to start sidekiq</td>
-      <td><code>true</code></td>
+      <td>bundle_command</td>
+      <td>Should bundle exec be used to start sidekiq and how should it be run</td>
+      <td><code>"bundle exec"</code></td>
     </tr>
     <tr>
       <td>logrotate</td>

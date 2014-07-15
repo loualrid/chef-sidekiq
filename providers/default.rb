@@ -132,7 +132,7 @@ action :create do
         :pidfile => pidfile,
         :sidekiq_config => sidekiq_config,
         :working_dir => working_dir,
-        :bundle_exec => new_resource.bundle_exec,
+        :bundle_command => new_resource.bundle_command,
         :rails_env => new_resource.rails_env,
         :owner => new_resource.owner,
         :group => new_resource.group
